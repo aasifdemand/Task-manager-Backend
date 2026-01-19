@@ -13,9 +13,6 @@ class UserLogin(BaseModel):
     email: EmailStr
     password: str
 
-# schemas/user.py
-
-# schemas/user.py
 
 class AuthResponse(BaseModel):
     user: UserResponse
